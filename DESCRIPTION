@@ -1,0 +1,19 @@
+Package: TCGADependencies
+Title: Installation of packages
+Version: 0.21.8
+Authors@R: 
+    person(given = "Dming",
+           family = "Fan",
+           role = c("aut", "cre"),
+           email = "dongliulou@126.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description:Installation of packages required by the TCGA package.
+License: GPL3
+Encoding: UTF-8
+Imports: R.utils,progress,rjson,pheatmap,DESeq2,biomaRt,clusterProfiler(=3.12.0),AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
