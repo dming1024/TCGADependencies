@@ -10,6 +10,7 @@ Authors@R:
 Description:Installation of packages required by the TCGA package.
 License: GPL3
 Encoding: UTF-8
+biocViews:
 Imports: R.utils,progress,rjson,pheatmap,DESeq2,biomaRt,BiocManager,clusterProfiler,AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr
 LazyData: true
 Roxygen: list(markdown = TRUE)
