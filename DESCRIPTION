@@ -11,7 +11,8 @@ Description:Installation of packages required by the TCGA package.
 License: GPL3
 Encoding: UTF-8
 biocViews:
-Imports: R.utils,progress,rjson,pheatmap,DESeq2,biomaRt,BiocManager,clusterProfiler,AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr
+Imports: R.utils,biomaRt,rjson,pheatmap,DESeq2,BiocManager,clusterProfiler,AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr,easyConvert
+Remotes: dming1024/easyConvert
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
