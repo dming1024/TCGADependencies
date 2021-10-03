@@ -1,6 +1,6 @@
 Package: TCGADependencies
 Title: Installation of packages
-Version: 0.21.8
+Version: 0.21.9
 Authors@R: 
     person(given = "Dming",
            family = "Fan",
@@ -11,7 +11,7 @@ Description:Installation of packages required by the TCGA package.
 License: GPL3
 Encoding: UTF-8
 biocViews:
-Imports: R.utils,biomaRt,rjson,pheatmap,DESeq2,BiocManager,clusterProfiler,AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr,easyConvert
+Imports: R.utils,biomaRt,rjson,pheatmap,DESeq2,BiocManager,clusterProfiler,AnnotationDbi,org.Hs.eg.db,survival,patchwork,Cairo,enrichplot,survminer,factoextra,FactoMineR,stringr,ComplexHeatmap,forcats,tidyr,easyConvert
 Remotes: dming1024/easyConvert
 LazyData: true
 Roxygen: list(markdown = TRUE)
